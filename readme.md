@@ -18,9 +18,14 @@ Edge
 ```
 ###### Run test 
  ```
- npx cypress run --spec "cypress/e2e/google_drive_spec/google_drive_file_upload.spec.js"
-
+ npx cypress run --spec "cypress/e2e/google_drive_specs/google_drive_file_upload.spec.js"
  Use --browser flag to run it on different brwoser
+
+or through Cypress test runner 
+ 
+ node_modules/.bin/cypress open
+
+
  ```
 
  ###### Report Location
